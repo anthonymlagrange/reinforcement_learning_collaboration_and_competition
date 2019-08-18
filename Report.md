@@ -48,7 +48,7 @@ The following hyperparameters were used during training. For full details, see `
 
 
 | Hyperparameter | Value | Description |
-|--- |---	|--- |--- |
+|--- |---	|--- |
 | agents_n | 2 | The number of agents. |
 | state\_shape\_all | (2, 8) | The agent x state-space size. |
 | action\_shape\_all | (2, 2) | The agent x action-space size. |
