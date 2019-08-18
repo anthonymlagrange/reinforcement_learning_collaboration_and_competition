@@ -75,7 +75,7 @@ For this project, the agent controller was trained only once. In its single trai
 
 ## Ideas for future work
 
-* The MADDPG implementation above doesn't exploit the symmetry between the two agents in this problem. Think of ways to do so.
+* The MADDPG implementation above doesn't exploit the symmetry between the two agents in this problem. Try ways of doing so.
 * Investigate the implementation of a multi-agent version of PPO.
 * Work through [this](https://arxiv.org/abs/1810.05587) paper, surveying the latest and greatest in multi-agent RL. Try other techniques.
 
