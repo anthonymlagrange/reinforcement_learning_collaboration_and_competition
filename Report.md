@@ -65,6 +65,20 @@ The following hyperparameters were used during training. For full details, see `
 | actor\_learning\_rate | 3e-4 | The learning rate used for the actor networks. |
 | critic\_learning\_rate | 3e-4 | The learning rate used for the critic networks. |
 
+For the actor networks, the following architecture was used:
+
+	Linear layer 1: 8 -> 256 units; ReLu
+	Linear layer 2: 256 -> 256 units; ReLu
+	Linear layer 3: 256 -> 256 units; ReLu
+	Linear layer 4: 256 -> 2 units; tanh
+
+For the critic networks, the following architecture was used:
+
+	Linear layer 1: 16 (concatenated states only) -> 64 units; ReLu
+	Linear layer 2: 64 (from previous layer) + 4 (concatenated actions only) -> 256 units; ReLu
+	Linear layer 3: 256 -> 256 units; ReLu
+	Linear layer 4: 256 -> 1 units
+
 
 ## Results
 
